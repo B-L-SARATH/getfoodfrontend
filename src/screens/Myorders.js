@@ -9,7 +9,7 @@ function Myorders() {
   const myorder = async () => {
     try {
       const response = await axios.post(
-        "https://foodappbackend-gamma.vercel.app//api/myorder",
+        "https://foodappbackend-gamma.vercel.app/api/myorder",
         {
           email: localStorage.getItem("credential"),
         },
